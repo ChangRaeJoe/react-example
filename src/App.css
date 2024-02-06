@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* ------------------ */
+
+form {
+  display: inline-block;
+  padding: 32px 32px;
+  .form-box {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+  }
+  div {
+    display: inline-block;
+    height: 100%;
+  }
+}

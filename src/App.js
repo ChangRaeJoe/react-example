@@ -1,9 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+// 컨테이너 id
+function print() {
+  console.log("log for client");
+}
+function reqestConvert() {
+  // http://localhost:8080/fromyaml
+  return false;
+}
 
 function App() {
   return (
     <div className="App">
+      {print()}
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
