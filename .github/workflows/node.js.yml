@@ -23,8 +23,14 @@ jobs:
         uses: actions/checkout@main
       - name: install dependon
         run: npm install
-      - name: build
+      - name: app build
         run: CI=false npm run build
+  serve_job:
+    runs-on: ubuntu-latest
+    needs: build_job
+    steps:
+      - name: serve.
+
   echo_job:
     runs-on: ubuntu-latest
     steps:
